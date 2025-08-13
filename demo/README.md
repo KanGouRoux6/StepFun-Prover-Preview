@@ -24,7 +24,7 @@ The original implementation of REPL(https://github.com/leanprover-community/repl
 - Place `leanprover/lean4:v4.20.0-rc5` in `repl
 /lean-toolchain`
 
-- Replace `repl/REPL/Main.lean` in `repl` with `Stepfun-Prover-Preview/demo/Main.lean`
+- Replace `repl/REPL/Main.lean` in `repl` by `Stepfun-Prover-Preview/demo/Main.lean`
 
 - Compile mathlib by adding 
   ```bash
