@@ -16,7 +16,7 @@ The original implementation of REPL(https://github.com/leanprover-community/repl
 
 - Install Lean4 following https://leanprover-community.github.io/install/linux.html
 
-- Install Lean4-repl. Note the version is `v4.20.0-rc5` in our experiments. So get the repo by 
+- Install Lean4-repl. We use the version `v4.20.0-rc5` in our experiments. So get the repo by 
   ```bash
   git clone -b bump_to_v4.20.1 https://github.com/leanprover-community/repl.git
   ```
