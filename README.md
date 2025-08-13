@@ -10,7 +10,7 @@
 
 ## Introduction
 
-We introduce StepFun-Prover-Preview, large language models designed for formal theorem proving through tool-integrated reasoning. Using a reinforcement learning pipeline that incorporates tool-based interactions, StepFun-Prover Preview can achieve strong performance in generating Lean 4 proofs with minimal sampling. Our approach enables the model to emulate human-like problem-solving strategies by iteratively refining proofs based on real-time environment feedback. On the miniF2F-test benchmark, StepFun-Prover-Preview-32B achieves a pass@1 success rate of $70\%$. Please refer to our [technical report](https://arxiv.org/abs/2507.20199) for more details.
+We introduce StepFun-Prover-Preview, large language models designed for formal theorem proving through tool-integrated reasoning. Using a reinforcement learning pipeline that incorporates tool-based interactions, StepFun-Prover Preview can achieve strong performance in generating Lean 4 proofs with minimal sampling. Our approach enables the model to emulate human-like problem-solving strategies by iteratively refining proofs based on real-time environment feedback. On the miniF2F-test benchmark, StepFun-Prover-Preview-32B achieves a pass@1 success rate of 70%. Please refer to our [technical report](https://arxiv.org/abs/2507.20199) for more details.
 
 <p align="center">
   <img width="60%" src="assets/fig1.png">
