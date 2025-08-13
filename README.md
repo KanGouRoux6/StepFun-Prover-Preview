@@ -4,7 +4,7 @@
 
 <div align="center"> 
   <a href="https://arxiv.org/abs/2507.20199"><img src="https://img.shields.io/static/v1?label=Technical%20Report&message=Arxiv&color=red"></a> &ensp;
-  <a href="https://huggingface.co/stepfun-ai/Stepfun-Prover-Preview-32B"><img src="https://img.shields.io/static/v1?label=Model&message=HuggingFace&color=yellow"></a> &ensp;
+  <a href="https://huggingface.co/stepfun-ai/StepFun-Prover-Preview-32B"><img src="https://img.shields.io/static/v1?label=Model&message=HuggingFace&color=yellow"></a> &ensp;
 </div>
 <br>
 
