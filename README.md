@@ -1,7 +1,7 @@
 # StepFun-Prover-Preview
 
 <p align="center">
-  <img src="assets/logo.png" width="120px"><br>
+  <img src="assets/logo.png" width="250px"><br>
 </p>
 
 <div align="center"> 
