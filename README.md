@@ -61,8 +61,8 @@ We introduce StepFun-Prover-Preview, large language models designed for formal t
   
 | Model | Download |
 | -------- | -------- |
-|    Stepfun-Prover-Preview-7B    |   [🤗HuggingFace](https://huggingface.co/stepfun-ai/Stepfun-Prover-Preview-7B)    |
-|    Stepfun-Prover-Preview-32B    |   [🤗HuggingFace](https://huggingface.co/stepfun-ai/Stepfun-Prover-Preview-32B)    |
+|    Stepfun-Prover-Preview-7B    |   [🤗HuggingFace](https://huggingface.co/stepfun-ai/StepFun-Prover-Preview-7B)    |
+|    Stepfun-Prover-Preview-32B    |   [🤗HuggingFace](https://huggingface.co/stepfun-ai/StepFun-Prover-Preview-32B)    |
 
 </div>
 
